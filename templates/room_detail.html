@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room Details</title>
+</head>
+<body>
+    <h1>Room {{ room.number }}</h1>
+    <p>Capacity: {{ room.capacity }}</p>
+    <p>Location: {{ room.location }}</p>
+    <a href="{% url 'index' %}">Back to rooms list</a>
+</body>
+</html>

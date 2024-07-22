@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Details</title>
+</head>
+<body>
+    <h1>Booking Details</h1>
+    <p>User: {{ booking.user.username }}</p>
+    <p>Room: {{ booking.room.number }}</p>
+    <p>Start Time: {{ booking.start_time }}</p>
+    <p>End Time: {{ booking.end_time }}</p>
+    <a href="{% url 'index' %}">Back to rooms list</a>
+</body>
+</html>
